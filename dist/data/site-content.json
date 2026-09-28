@@ -42,93 +42,21 @@
             {
               "type": "text",
               "value": {
-                "zh": "2025.9-2029.6，上海交通大学，外国语学院德语专业，学士",
-                "en": "Sep 2025 – Jun 2029 · B.A. in German, School of Foreign Languages, Shanghai Jiao Tong University"
+                "zh": "2025.9-2029.6，上海交通大学，外国语学院德语专业",
+                "en": "2025.9-2029.6，上海交通大学，外国语学院德语专业"
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "zh": "修读课程：已修读语料库语言学，人工智能基础、 语言数据科学理论与Python应用，具备一定的编程以及文本处理基础。目前正在学习语言统计和语言智能与认知、语言学概论等课程，进一步学习语言数据分析方法。",
+                "en": "修读课程：已修读语料库语言学，人工智能基础、 语言数据科学理论与Python应用，具备一定的编程以及文本处理基础。目前正在学习语言统计和语言智能与认知、语言学概论等课程，进一步学习语言数据分析方法。"
               }
             }
           ]
         },
         {
           "id": "module-3",
-          "title": {
-            "zh": "校园经历",
-            "en": "Campus Experience"
-          },
-          "items": [
-            {
-              "type": "text",
-              "value": {
-                "zh": "1、AIGC互动解谜游戏制作",
-                "en": "1. AIGC Interactive Puzzle Game"
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "与2名同学合作，利用AIGC工具及Mediapipe技术设计并完成一款简易互动解谜游戏。",
-                "en": "Collaborated with two classmates to design and complete an interactive puzzle game using AIGC tools and MediaPipe."
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "负责游戏剧情构思、AI生成内容及对视频素材进行剪辑与整体调优，确保叙事连贯性与可玩性。",
-                "en": "Developed the story, created AI-assisted content, and edited and refined video assets to strengthen narrative flow and playability."
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "借助AI生成角色对白、场景描述及部分美术素材，探索低成本快速原型开发流程。",
-                "en": "Used AI to create character dialogue, scene descriptions, and selected art assets while exploring a fast, low-cost prototyping workflow."
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "最终产出可运行的互动游戏Demo，团队内部测试反馈良好，锻炼了创意落地与跨角色协作能力。",
-                "en": "Delivered a working interactive game demo that received positive internal feedback and strengthened cross-functional collaboration skills."
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "2、校学生会 宣传部成员",
-                "en": "2. Communications Team · Student Union"
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "为学生会官方号设计过小红书推文，使用可画完成内容选题、图文创作与排版，用于活动宣传。",
-                "en": "Created Xiaohongshu posts for the Student Union, covering topic selection, visual production, and layout for event promotion."
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "在学校游园会活动中担任现场采访者，撰写采访提纲、现场记录，为后续宣传提供素材。",
-                "en": "Worked as an on-site interviewer at the university fair, preparing interview outlines and gathering material for follow-up communications."
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "3、班级宣传委员",
-                "en": "3. Class Communications Representative"
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "负责班级及团支部宣发工作，独立完成团日活动公众号推文的撰写与排版，并获得辅导员肯定。",
-                "en": "Led communications for the class and Youth League branch, independently writing and designing a WeChat article recognized by the academic advisor."
-              }
-            }
-          ]
-        },
-        {
-          "id": "module-4",
           "title": {
             "zh": "工具技能",
             "en": "Creative Toolkit"
@@ -137,36 +65,24 @@
             {
               "type": "text",
               "value": {
-                "zh": "熟练使用秀米进行公众号推文的撰写与排版，熟悉从文稿撰写到图文美化、格式调整的全流程。",
-                "en": "Proficient in Xiumi for writing and laying out WeChat articles, from drafting and visual polish to final formatting."
+                "zh": "具备Python编程基础，能够使用Trae此类辅助编程工具，熟悉大语言模型和AI工具的使用；能够使用ELAN进行语言材料标注；学习过SPSS的使用方法；对Gephi网络分析与可视化有基本了解",
+                "en": "具备Python编程基础，能够使用Trae此类辅助编程工具，熟悉大语言模型和AI工具的使用；能够使用ELAN进行语言材料标注；学习过SPSS的使用方法；对Gephi网络分析与可视化有基本了解"
               }
-            },
+            }
+          ]
+        },
+        {
+          "id": "module-4",
+          "title": {
+            "zh": "项目与技术实践",
+            "en": "项目与技术实践"
+          },
+          "items": [
             {
               "type": "text",
               "value": {
-                "zh": "能够运用可画设计小红书推文及活动海报，擅长根据校园传播场景输出符合品牌调性的视觉内容。",
-                "en": "Skilled in Canva-style visual design with Kawa, creating Xiaohongshu posts and event posters suited to campus communication contexts."
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "掌握剪映的基础剪辑功能，包括剪辑、字幕添加、配乐等，可独立完成短视频的后期制作。",
-                "en": "Comfortable with Jianying/CapCut editing, including cutting, subtitles, and music, and able to complete short-form video post-production independently."
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "熟悉可灵、即梦、豆包等AI生成工具，可辅助完成文本创作、图像生成等内容的快速迭代。",
-                "en": "Familiar with generative AI tools including Kling, Jimeng, and Doubao for rapid iteration of written and visual content."
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "zh": "具备线下采访和素材收集能力，能完成采访提纲设计、现场记录以及后续宣传内容输出。",
-                "en": "Experienced in field interviews and material gathering, from interview planning and on-site notes to final promotional content."
+                "zh": "与两名同学合作，使用Gradio搭建基于大语言模型的交互式界面，同时利用MediaPipe技术设计完成一款简易互动解谜游戏。",
+                "en": "与两名同学合作，使用Gradio搭建基于大语言模型的交互式界面，同时利用MediaPipe技术设计完成一款简易互动解谜游戏。"
               }
             }
           ]
@@ -184,21 +100,28 @@
                 "zh": "大学英语四级（CET-4）614分，大学英语六级（CET-6）630分，具备良好的读写与听说能力",
                 "en": "CET-4: 614 · CET-6: 630 · Strong reading, writing, listening, and speaking skills"
               }
+            },
+            {
+              "type": "text",
+              "value": {
+                "zh": "德语专业在读，接受系统的德语及语言学训练，具备一定的德语文本阅读与分析能力",
+                "en": "德语专业在读，接受系统的德语及语言学训练，具备一定的德语文本阅读与分析能力"
+              }
             }
           ]
         },
         {
           "id": "module-6",
           "title": {
-            "zh": "自我介绍",
-            "en": "About Me"
+            "zh": "个人陈述",
+            "en": "个人陈述"
           },
           "items": [
             {
               "type": "text",
               "value": {
-                "zh": "待填写",
-                "en": "To be added"
+                "zh": "作为德语专业学生，我希望将自己的德语语言及语言学背景与数字方法结合，进一步探索跨语言、跨文化的数字人文研究。相比单纯关注技术本身，我认为更重要的是将技术方法应用于具体的语言与人文研究问题，例如借助语料库、自然语言处理、大语言模型以及统计方法，对较大规模的文本进行分析，从中观察和解释语言、文学与文化现象。目前我的技术能力仍处于不断学习和积累的阶段，但我很乐于接触新的研究方法和工具，也愿意稳定投入时间学习研究相关内容。",
+                "en": "作为德语专业学生，我希望将自己的德语语言及语言学背景与数字方法结合，进一步探索跨语言、跨文化的数字人文研究。相比单纯关注技术本身，我认为更重要的是将技术方法应用于具体的语言与人文研究问题，例如借助语料库、自然语言处理、大语言模型以及统计方法，对较大规模的文本进行分析，从中观察和解释语言、文学与文化现象。目前我的技术能力仍处于不断学习和积累的阶段，但我很乐于接触新的研究方法和工具，也愿意稳定投入时间学习研究相关内容。"
               }
             }
           ]

@@ -9,7 +9,8 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "content" / "网站内容.xlsx"
+CONTENT_DIR = ROOT / "content"
+PREFERRED_SOURCE = CONTENT_DIR / "个人简历.xlsx"
 ASSETS = ROOT / "content" / "assets"
 OUTPUT = ROOT / "dist" / "data" / "site-content.json"
 PUBLIC_ASSETS = ROOT / "dist" / "assets"
@@ -18,6 +19,27 @@ ROOT_ASSETS = ROOT / "assets"
 
 IMAGE_PATTERN = re.compile(r"\.(?:avif|gif|jpe?g|png|svg|webp)$", re.IGNORECASE)
 SPLIT_PATTERN = re.compile(r"\s*\|\|\s*")
+
+
+def find_source() -> Path:
+    if PREFERRED_SOURCE.exists():
+        return PREFERRED_SOURCE
+
+    workbooks = sorted(
+        path for path in CONTENT_DIR.glob("*.xlsx")
+        if not path.name.startswith("~$")
+    )
+    if len(workbooks) == 1:
+        return workbooks[0]
+    if not workbooks:
+        raise FileNotFoundError(f"No .xlsx workbook found in: {CONTENT_DIR}")
+    names = ", ".join(path.name for path in workbooks)
+    raise FileNotFoundError(
+        f"Multiple .xlsx workbooks found ({names}). Rename the website workbook to 个人简历.xlsx."
+    )
+
+
+SOURCE = find_source()
 
 TRANSLATIONS = {
     "Sheet1": "Home",
